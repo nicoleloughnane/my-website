@@ -27,16 +27,16 @@ const NavigationBar = () => {
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
           <span className='nav-item nav-link active' href = '#'>
-              <Link to='/'>Home</Link>
+              <Link to='/' className='nav-link'>Home</Link>
               <span className='sr-only'>(current)</span>
           </span>
           
           <span className='nav-item nav-link active' href = '#'>
-              <Link to='/about'>About</Link>
+              <Link to='/about' className='nav-link'>About</Link>
           </span>
 
           <span className='nav-item nav-link active' href = '#'>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/contact'  className='nav-link'>Contact</Link>
           </span>
 
         </div>

@@ -1,9 +1,10 @@
 import React from 'react';
 import NavigationBar from './components/NavigationBar';
 //import Layout from './components/Layout';
-import FakeJumbotron from './components/FakeJumbotron';
+//import FakeJumbotron from './components/FakeJumbotron';
 
-import './App.css'
+
+import './App.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -16,11 +17,10 @@ import NoMatch from './pages/NoMatch';
 const App = () => {
 
   return (
-   <div className='container'>
+   <div >
     <BrowserRouter>
 
     <NavigationBar /> 
-    <FakeJumbotron />
 
     <Routes>
 
@@ -33,6 +33,7 @@ const App = () => {
       <Route path='*' element={<NoMatch/>} />
 
       </Routes>
+    
     
       </BrowserRouter>
       </div>

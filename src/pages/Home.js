@@ -1,10 +1,18 @@
 import React from "react";
+import Header from '../components/Header';
+
 
 const Home = () => {
     return (
     <div className="container"> 
-        <h1>Welcome home!</h1>
-        <p>My name is Nicole. I am a student studying Software Development at Grand Canyon University in Phoenix, AZ! </p>
+     <div className="aligncenter">
+     <Header />
+        <br/>
+        <h1>Nicole Loughnane</h1>
+        <p> Software Development Student at Grand Canyon University</p>
+        <br/>
+        <h2>My Projects</h2>
+        </div>
     </div>
     );
 };
