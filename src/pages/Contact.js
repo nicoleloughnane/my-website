@@ -6,6 +6,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {faBehance } from '@fortawesome/free-brands-svg-icons';
 
 
 const Contact = () => {
@@ -33,6 +34,14 @@ const Contact = () => {
         <FontAwesomeIcon icon={faGithub} size='4x' />
         <br />
         <a target="_blank" rel="noreferrer" href="https://github.com/nicoleloughnane">GitHub</a>
+        <br/>
+        <br/>
+
+        <FontAwesomeIcon icon={faBehance} size='4x' />
+        <br />
+        <a target="_blank" rel="noreferrer" href="https://www.behance.net/nicolel6">Behance</a>
+
+
 
         </div>
 
