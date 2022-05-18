@@ -8,6 +8,13 @@ const Card = (props) => {
                 <h5 className="card-title">{props.title}</h5>
                 <h6 className="card-subtitle"> {props.tools}</h6>
                 <p className="card-text"> {props.description}</p>
+                <button className = 'btn btn-primary' onClick={(e) => { 
+                    e.preventDefault(); 
+                    window.location.href='https://github.com/nicoleloughnane'
+                    
+                }}> 
+                Go to Project
+                </button>
             </div>
         </div>
     );

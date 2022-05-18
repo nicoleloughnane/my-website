@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-/* padding and margin for the cards and render horizontally*/
+/* padding and margin for the cards and render them horizontally, instead of vertically*/
 .cardcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -27,21 +27,6 @@ body {
     padding: 5px;
 }
 
-/****** JUMBOTRON ******/
-
-.display-4{
-    color:white;
-}
-.lead{
-    color:white;
-}
-
-/****** CAROUSEL ******/
-
-.carousel {
-    width: 18.75rem;
-    height: 6.25rem;
-}
 
 /****** NAVBAR ******/
 

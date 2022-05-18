@@ -2,7 +2,7 @@ import React from "react";
 
 const NoMatch = () => {
     return (
-    <div> 
+    <div className="container"> 
         <h1>Oops! An error has occurred.</h1>
     </div>
     );

@@ -20,7 +20,7 @@ const Home = () => {
           {
             id: 1,
             image:
-            'https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/TheBeatles-YellowSubmarinealbumcover.jpg/220px-TheBeatles-YellowSubmarinealbumcover.jpg',
+            "https://en.meming.world/images/en/thumb/a/a9/Communist_Bugs_Bunny.jpg/450px-Communist_Bugs_Bunny.jpg",
             title: 'Test Title',
             tools: 'Test tools',
             description:
@@ -30,7 +30,7 @@ const Home = () => {
           {
             id: 2,
             image:
-            'https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/TheBeatles-YellowSubmarinealbumcover.jpg/220px-TheBeatles-YellowSubmarinealbumcover.jpg',
+            "https://en.meming.world/images/en/thumb/a/a9/Communist_Bugs_Bunny.jpg/450px-Communist_Bugs_Bunny.jpg",
             title: 'Test Title',
             tools: 'Test tools',
             description:
@@ -44,6 +44,7 @@ const Home = () => {
         return projectList.map((project) => {
             return (
                 <Card 
+                key = {project.id}
                 image = {project.image}
                 title = {project.title}
                 tools = {project.tools}
