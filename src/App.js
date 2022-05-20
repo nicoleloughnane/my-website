@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NavigationBar from './components/NavigationBar';
 
 
@@ -26,11 +26,11 @@ const App = () => {
 
     <Routes>
 
-      <Route path='/' element={<Home/>} />
+      <Route path='/my-website' element={<Home/>} />
 
-      <Route path='/about' element={<About/> } />
+      <Route path='/my-website/about' element={<About/> } />
 
-      <Route path='/contact' element={<Contact/>} />
+      <Route path='/my-website/contact' element={<Contact/>} />
 
       <Route path='*' element={<NoMatch/>} />
 
