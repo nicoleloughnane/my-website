@@ -5,7 +5,7 @@ import NavigationBar from './components/NavigationBar';
 
 import './App.css';
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,17 +20,17 @@ const App = () => {
 
   return (
    <div >
-    <BrowserRouter>
+    <HashRouter>
 
     <NavigationBar /> 
 
     <Routes>
 
-      <Route path='/my-website' element={<Home/>} />
+      <Route path='/' element={<Home/>} />
 
-      <Route path='/my-website/about' element={<About/> } />
+      <Route path='/about' element={<About/> } />
 
-      <Route path='/my-website/contact' element={<Contact/>} />
+      <Route path='/contact' element={<Contact/>} />
 
       <Route path='*' element={<NoMatch/>} />
 
@@ -38,7 +38,7 @@ const App = () => {
       </Routes>
     
     
-      </BrowserRouter>
+      </HashRouter>
       </div>
     
     );
