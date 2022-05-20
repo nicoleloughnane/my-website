@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavigationBar from './components/NavigationBar';
-//import Layout from './components/Layout';
-//import FakeJumbotron from './components/FakeJumbotron';
+
 
 
 import './App.css';
@@ -14,7 +13,10 @@ import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 
 
+
 const App = () => {
+
+
 
   return (
    <div >
@@ -31,6 +33,7 @@ const App = () => {
       <Route path='/contact' element={<Contact/>} />
 
       <Route path='*' element={<NoMatch/>} />
+
 
       </Routes>
     
